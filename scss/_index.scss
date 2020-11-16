@@ -1,0 +1,43 @@
+main {
+    @include absCenter;
+    width: 80%;
+    // height: 1000px;
+    font-family: $font-display;
+}
+
+.translation-area {
+    text-align: center;
+    background-color: green;
+    width: 80%;
+    height: 240px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: space-around;
+    justify-content: center;
+    .form-group {
+        font-size: 0.2rem;
+        margin: 10px 20px;
+        align-self: auto;
+        position: relative;
+        input,
+        button {
+            padding: 10px 10px;
+        }
+    }
+    .output {
+        position: relative;
+        font-size: 2.6rem;
+        line-height: 1.2em;
+        align-self: center;
+        justify-items: center;
+        height: 4.4rem;
+        // margin: 40px 40px;
+        background-color: grey;
+        color: $font-colour;
+        // padding: 10px 20px;
+        border: 1px solid rgb(78, 124, 118);
+        padding: 5px 20px;
+    }
+}
