@@ -68,7 +68,7 @@ main {
 
 .translation-area .form-group input,
 .translation-area .form-group button {
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 .translation-area .output {
@@ -80,7 +80,7 @@ main {
       align-self: center;
   justify-items: center;
   height: 4.4rem;
-  background-color: grey;
+  background-color: rgba(120, 143, 105, 0.733);
   color: #e0d2d2;
   border: 1px solid #4e7c76;
   padding: 5px 20px;

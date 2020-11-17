@@ -23,7 +23,7 @@ main {
         position: relative;
         input,
         button {
-            padding: 10px 10px;
+            padding: 10px;
         }
     }
     .output {
@@ -34,7 +34,7 @@ main {
         justify-items: center;
         height: 4.4rem;
         // margin: 40px 40px;
-        background-color: grey;
+        background-color: rgba(120, 143, 105, 0.733);
         color: $font-colour;
         // padding: 10px 20px;
         border: 1px solid rgb(78, 124, 118);
